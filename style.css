@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 body
 {
         background-color: black;
@@ -42,7 +34,7 @@ header li a
 {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 13px;
+    padding: 14px;
     transition: .3s ease;
     font-family: "Lucida Console", "Courier New", monospace;
    
@@ -50,17 +42,10 @@ header li a
 
 header li a:hover
 {
-    color: rgb(48, 48, 48);
+    color: rgb(17, 17, 17);
     border: 1px solid
 }
 
-header li img 
-{
-    width: 150px;
-    float:left;
-    margin-top: -20px;
-
-}
 
 #p1 
 {
@@ -99,7 +84,7 @@ header li img
 {
     
     position: relative;
-    top: 100px; /* ajustar los valores para mover la imagen */
+    top: 100px; 
     left: -400px;
     width: 400px;
     height: 400px;
@@ -115,7 +100,7 @@ header li img
 {
     
     position: relative;
-    top: -715px; /* ajustar los valores para mover la imagen */
+    top: -715px; 
     left: 550px;
     width: 400px;
     height: 400px;
@@ -131,7 +116,7 @@ header li img
 {
     
     position: relative;
-    top: -1530px; /* ajustar los valores para mover la imagen */
+    top: -1530px; 
     left: 80px;
     width: 400px;
     height: 400px;
@@ -230,3 +215,61 @@ footer li a:hover
     
     
   }
+
+
+  p.center {
+  text-align: center;
+  color: red;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-color: red;
+    color: red;
+  }
+  
+ 
+
+  table {
+    width: 50%;
+    border-color: red;
+    position: absolute;
+    top: 1100px; left: 330px;
+}
+
+#minombre
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+   
+}
+
+#miapellido
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+#micorreo
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#minumero
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#micontacto
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
